@@ -1,0 +1,66 @@
+1.-----print prime numbers:
+
+ # range function is not count last number (Ending number)
+ # only 1 to 100 is counted
+ 
+for i in range(2,101): 
+    for j in range(2,101):
+        if i%j == 0:
+            break
+    if i == j:
+        print(i,end=",")
+
+OR n number of prime numbers:
+
+num = int(input("Enter a number: "))
+    
+for i in range(2,num+1):
+    for j in range(2,num+1):
+        if i%j == 0:
+            break
+    if i == j:
+        print(i,end=',')
+
+2.------ print even numbers:
+
+for i in range(0,101):
+    if i % 2 == 0:
+        print(i, end=",")
+
+OR
+
+i = 0
+while i <= 100:
+    if i % 2 == 0:
+        print(i, end=",")
+    i+=1
+
+OR if particualar numbers we want use this:
+
+num = int(input("Enter a Number: "))
+for i in range(0,num+1):
+    if i % 2 == 0:
+        print(i, end=",")
+
+
+3.-----print odd even numbers:
+
+for i in range(0,101):
+    if i % 2 == 1:
+        print(i, end=",")
+
+OR
+
+i = 0
+while i <= 100:
+    if i % 2 == 0:
+        print(i, end=",")
+    i+=1
+OR if particualar numbers we want use this:
+
+
+num=int(input("enter value:"))
+for i in range(0,num+1):
+      if i%2==1:
+          print(i, end =",")
+
