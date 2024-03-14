@@ -3,7 +3,7 @@
 hi , this is teja . i want to learn coding getting knowledge:
 teja
 echo"teja"
-
+# print even numbers
 num=int(input("enter value":)
 for i in range(0,num+1):
   if i%2==0:
